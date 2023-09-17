@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Lobster&family=Lora:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Lobster&family=Lora:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,700&family=Rubik:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar {
+    padding: 2rem 0;
+}
+
+.navbar .navbar__up-logo {
+    gap: .6rem;
+}
+
+.navbar .navbar__up-logo p {
+    color: #080808;
+    font-family: Rubik;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.navbar__up-link {
+    gap: 1.4rem;
+    padding-right: 7rem;
+}
+
+.navbar__up-link .navbar__up-item a {
+    color: rgba(8, 8, 8, 0.50);
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navbar__up-link .navbar__up-item a .fa-chevron-down {
+    font-size: .9rem;
+}
+
+.navbar .navbar__up-input {
+    position: relative;
+}
+
+.navbar .navbar__up-input i {
+    position: absolute;
+    right: 10%;
+    top: 36%;
+    color: #cdbaba;
+}
+
+.navbar .navbar__up-input input {
+    padding: 1rem 1rem;
+    border-radius: 0.75rem;
+    background: #FAFAFA;
+    border: none;
+    outline: none;
+}
+
+.navbar__up-user .user-img {
+    width: 4rem;
+}
+
+.navbar__up-user .user-img img {
+    width: 100%;
+}
+
+.navbar__up-user .user-info p {
+    color: #080808;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.navbar__up-user .user-info span {
+    color: rgba(8, 8, 8, .5);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.navbar__up-user .user-icon {
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(158, 92, 242, 0.05);
+    justify-content: center;
+    border-radius: 0.75rem;
+}
