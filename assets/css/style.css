@@ -322,12 +322,6 @@ a {
     gap: 2rem;
 }
 
-.courses__content-list ul li {
-    /* background-color: #F5F5F5;
-    border-radius: 0.625rem;
-    padding: .5rem; */
-}
-
 .courses__content-list ul li:first-child {
     background-color: #F5F5F5;
     border-radius: 0.625rem;
@@ -364,17 +358,41 @@ a {
     font-weight: bold;
     text-transform: uppercase;
 }
-.section__main-card-item{
+
+.section__main-card-item {
     padding: 1rem;
     background-color: #f1f1f1;
+    border-radius: 0.75rem;
+    width: 20rem;
 }
 
-.section__main-card-item-img{
-    width: 22rem;
+.section__main-card-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+.section__main-card-item-img {
+    width: 18rem;
 }
 
 .section__main-card-item p {
     color: #080808;
     font-size: 1rem;
     font-weight: bold;
+    padding: 1rem 0;
+    line-height: 1.3rem;
+}
+
+.section__main-card-item span {
+    padding-bottom: 1rem;
+    padding-right: .5rem;
+    display: inline-block;
+    color:  rgba8, 8, 8, 0.75;
+    font-size: 0.8125rem;
+}
+
+.section__main-card-btn {
+    padding: 1rem 2rem;
 }
