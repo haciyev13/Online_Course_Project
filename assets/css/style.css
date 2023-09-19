@@ -27,7 +27,7 @@ a {
 .flex {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 .flex-between {
@@ -610,15 +610,20 @@ span {
 }
 
 /* Footer */
-footer{
-    height: 100vh;
+footer {
+    /* height: 100vh; */
     padding-top: 10rem;
     background-color: #FAFAFA;
 }
+
 .footer__content-up-info {
     width: 80%;
     background-color: #F5F2FA;
     border-radius: 1rem 1.4rem 7rem 1rem;
+}
+
+.footer__content-up {
+    padding-bottom: 5rem;
 }
 
 .footer__content-up-img {
@@ -653,4 +658,49 @@ footer{
     line-height: normal;
     text-transform: uppercase;
     text-align: start;
+}
+
+.footer__content-midle-card {
+    display: flex;
+    gap: 4rem;
+}
+
+.footer__content-midle-card .courses__content-info p {
+    color: var(--Dark-75, rgba(8, 8, 8, 0.75));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: .455rem;
+}
+
+.footer__content-midle-card .courses__content-info .flex {
+    padding-bottom: 1.5rem;
+}
+
+.footer__content-midle-card .courses__content-info .flex h5 {
+    color: var(--Dark, #080808);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1.13rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.courses__content-info-card {
+    padding: 1rem 0;
+}
+
+.courses__content-info-card h6 {
+    color: var(--Black, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
 }
