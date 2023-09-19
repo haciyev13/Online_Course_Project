@@ -23,7 +23,10 @@ li {
 a {
     text-decoration: none;
 }
-
+.flex{
+    display: flex;
+    align-items: center;
+}
 .flex-between {
     display: flex;
     justify-content: space-between;
@@ -399,6 +402,7 @@ a {
 
 .section__instructors {
     padding-top: 9rem;
+    padding-bottom: 15rem;
 }
 
 .section__instructors-content {
