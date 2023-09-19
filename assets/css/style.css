@@ -600,3 +600,6 @@ span {
     font-weight: 900;
     text-transform: capitalize;
 }
+.section__main-card-padding{
+    padding-top: 9rem;
+}
