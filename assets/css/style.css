@@ -556,10 +556,12 @@ span {
     background-color: rgba(209, 207, 207, 0.5);
     border-radius: 1rem;
 }
-.section__form-content-info{
+
+.section__form-content-info {
     width: 70%;
 }
-.section__form-content-input{
+
+.section__form-content-input {
     width: 30%;
     display: flex;
     justify-content: flex-end;
@@ -568,15 +570,18 @@ span {
     border-radius: 6rem 2rem 2rem 12rem;
     /* position: relative; */
 }
-.section__form-content-input input{
+
+.section__form-content-input input {
     border: none;
     border-radius: 1rem;
     padding: 1rem 4rem;
 }
-.section__form-content-input input:focus{
+
+.section__form-content-input input:focus {
     overflow: hidden;
 }
-.section__form-content-input button{
+
+.section__form-content-input button {
     position: relative;
     right: 30%;
     padding: .1rem 1rem;
@@ -592,14 +597,60 @@ span {
 }
 
 .section__form-content-info h3 span {
-    color: var(--Blue, #5A69F2);
-    font-feature-settings: 'clig' off, 'liga' off;
+    color: #5A69F2;
     font-family: Roboto;
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 900;
     text-transform: capitalize;
 }
-.section__main-card-padding{
+
+.section__main-card-padding {
     padding-top: 9rem;
+}
+
+/* Footer */
+footer{
+    height: 100vh;
+    padding-top: 10rem;
+    background-color: #FAFAFA;
+}
+.footer__content-up-info {
+    width: 80%;
+    background-color: #F5F2FA;
+    border-radius: 1rem 1.4rem 7rem 1rem;
+}
+
+.footer__content-up-img {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__content-up-img img {
+    width: 5rem;
+    margin-left: 2rem;
+}
+
+.footer__content-up-info p {
+    color: var(--Dark, #080808);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4rem;
+    letter-spacing: 0.03rem;
+    text-transform: capitalize;
+    padding: 1.5rem;
+}
+
+.footer__content-up-img p {
+    color: var(--Dark, #080808);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Rubik;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: start;
 }
