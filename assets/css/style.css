@@ -389,10 +389,106 @@ a {
     padding-bottom: 1rem;
     padding-right: .5rem;
     display: inline-block;
-    color:  rgba8, 8, 8, 0.75;
+    color: rgba8, 8, 8, 0.75;
     font-size: 0.8125rem;
 }
 
 .section__main-card-btn {
     padding: 1rem 2rem;
+}
+
+.section__instructors {
+    padding-top: 9rem;
+}
+
+.section__instructors-content {
+    display: flex;
+    align-items: center;
+    width: 105%;
+}
+
+.section__instructors-content-info {
+    width: 40%;
+}
+
+.section__instructors-content-img {
+    width: 70%;
+    height: 15rem;
+    border-radius: 1rem;
+    background-color: rgba(218, 211, 211, 0.373);
+}
+
+.section__instructors-content-info h4,
+span {
+    color: #080808;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 4.25rem;
+    text-transform: capitalize;
+}
+
+.section__instructors-content-info span {
+    color: #B176F2;
+}
+
+.section__instructors-content-info p {
+    color: var(--Dark-75, rgba(0, 0, 0, 0.75));
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6rem;
+    letter-spacing: 0.01563rem;
+    text-transform: capitalize;
+    width: 25rem;
+    padding: 1rem 0 5rem 0;
+}
+
+.section__instructors-content-btn {
+    justify-content: flex-start;
+}
+
+.section__instructors-content-btn img:last-child {
+    position: relative;
+    right: 3%;
+    bottom: 2rem;
+}
+
+.section__instructors-content-img-up-span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__instructors-content-img-up-span span:first-child {
+    color: #3E3232;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section__instructors-content-img-up-span span:last-child {
+    color: rgba(62, 50, 50, 0.75);
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.section__instructors-content-img-up-card{
+    width: 14.4rem;
+    padding: 1rem .5rem;
+}
+.section__instructors-content-img-up{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    bottom: 40%;
+    margin: 1rem 0;
+}
+.section__instructors-content-img-up-card{
+    background-color: #fafafa;
+    border-radius: 1rem;
 }
